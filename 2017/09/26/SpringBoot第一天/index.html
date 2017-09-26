@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>SpringBoot第一天 | Lcstar&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="###SpringBoot第一天推荐使用application.yml文件类似与配置Hexo的yml配置文件语法相同 ####@ConfigurationProperties注解@ConfigurationProperties(prefix = “prefix”)获取前缀为prefix的数据配合@Component注解 然后使用@Atuowrite注解来注入Controller中 ####读取其">
+  <meta name="description" content="SpringBoot第一天">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SpringBoot第一天">
 <meta property="og:url" content="http://yoursite.com/2017/09/26/SpringBoot第一天/index.html">
 <meta property="og:site_name" content="Lcstar&#39;s Blog">
-<meta property="og:description" content="###SpringBoot第一天推荐使用application.yml文件类似与配置Hexo的yml配置文件语法相同 ####@ConfigurationProperties注解@ConfigurationProperties(prefix = “prefix”)获取前缀为prefix的数据配合@Component注解 然后使用@Atuowrite注解来注入Controller中 ####读取其">
-<meta property="og:updated_time" content="2017-09-26T13:57:57.669Z">
+<meta property="og:description" content="SpringBoot第一天">
+<meta property="og:updated_time" content="2017-09-26T14:45:46.598Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpringBoot第一天">
-<meta name="twitter:description" content="###SpringBoot第一天推荐使用application.yml文件类似与配置Hexo的yml配置文件语法相同 ####@ConfigurationProperties注解@ConfigurationProperties(prefix = “prefix”)获取前缀为prefix的数据配合@Component注解 然后使用@Atuowrite注解来注入Controller中 ####读取其">
+<meta name="twitter:description" content="SpringBoot第一天">
   
     <link rel="alternative" href="/atom.xml" title="Lcstar&#39;s Blog" type="application/atom+xml">
   
@@ -144,23 +144,20 @@
 
         
         <a href="/2017/09/26/SpringBoot第一天/" class="archive-article-date">
-  	<time datetime="2017-09-26T13:57:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
+  	<time datetime="2017-09-26T14:42:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<p>###SpringBoot第一天<br>推荐使用application.yml文件<br>类似与配置Hexo的yml配置文件语法相同</p>
-<p>####@ConfigurationProperties注解<br>@ConfigurationProperties(prefix = “prefix”)<br>获取前缀为prefix的数据<br>配合@Component注解 然后使用@Atuowrite注解来注入Controller中</p>
-<p>####读取其他的yml配置文件<br>在application.yml文件中使用<br>spring:profiles:active: name来指定使用什么文件<br>application.yml<br>application-dev.yml<br>applicatrion-product.yml<br>将name 改为dev就使用 application-dev中的配置<br>反之用product 则使用application-product中的配置</p>
-<p>####Controller的使用<br>Controller的使用和SpringMVC的使用一样<br> @RestContoller = @Controller + @ResponseBody</p>
-<p>####@RequestMapping使用方式<br>映射多个url ：将value属性写成一个集合 如 value={“/hello”,”/hi”}</p>
-<p>####@GetMapping</p>
-<p>######@GetMapping = @RequestMapping(Method=RequestMethod.GET)</p>
-<p>######@PostMapping = @RequestMapping(Method=RequestMethod.POST)</p>
-
+        <h3 id="SpringBoot第一天"><a href="#SpringBoot第一天" class="headerlink" title="SpringBoot第一天"></a>SpringBoot第一天</h3><a id="more"></a>
+<p>推荐使用application.yml文件<br>类似与配置Hexo的yml配置文件语法相同</p>
+<h4 id="ConfigurationProperties注解"><a href="#ConfigurationProperties注解" class="headerlink" title="@ConfigurationProperties注解"></a>@ConfigurationProperties注解</h4><p>@ConfigurationProperties(prefix = “prefix”)<br>获取前缀为prefix的数据<br>配合@Component注解 然后使用@Atuowrite注解来注入Controller中</p>
+<h4 id="读取其他的yml配置文件"><a href="#读取其他的yml配置文件" class="headerlink" title="读取其他的yml配置文件"></a>读取其他的yml配置文件</h4><p>在application.yml文件中使用<br>spring:profiles:active: name来指定使用什么文件<br>application.yml<br>application-dev.yml<br>applicatrion-product.yml<br>将name 改为dev就使用 application-dev中的配置<br>反之用product 则使用application-product中的配置</p>
+<h4 id="Controller的使用"><a href="#Controller的使用" class="headerlink" title="Controller的使用"></a>Controller的使用</h4><p>Controller的使用和SpringMVC的使用一样<br> @RestContoller = @Controller + @ResponseBody</p>
+<h4 id="RequestMapping使用方式"><a href="#RequestMapping使用方式" class="headerlink" title="@RequestMapping使用方式"></a>@RequestMapping使用方式</h4><p>映射多个url ：将value属性写成一个集合 如 value={“/hello”,”/hi”}</p>
+<h4 id="GetMapping"><a href="#GetMapping" class="headerlink" title="@GetMapping"></a>@GetMapping</h4><h6 id="GetMapping-RequestMapping-Method-RequestMethod-GET"><a href="#GetMapping-RequestMapping-Method-RequestMethod-GET" class="headerlink" title="@GetMapping = @RequestMapping(Method=RequestMethod.GET)"></a>@GetMapping = @RequestMapping(Method=RequestMethod.GET)</h6><h6 id="PostMapping-RequestMapping-Method-RequestMethod-POST"><a href="#PostMapping-RequestMapping-Method-RequestMethod-POST" class="headerlink" title="@PostMapping = @RequestMapping(Method=RequestMethod.POST)"></a>@PostMapping = @RequestMapping(Method=RequestMethod.POST)</h6>
       
 
       
