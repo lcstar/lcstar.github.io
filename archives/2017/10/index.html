@@ -6,18 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>SpringBoot第一天 | Lcstar&#39;s Blog</title>
+  <title>Archives: 2017/10 | Lcstar&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="SpringBoot第一天">
-<meta property="og:type" content="article">
-<meta property="og:title" content="SpringBoot第一天">
-<meta property="og:url" content="http://yoursite.com/2017/09/26/SpringBoot第一天/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Lcstar&#39;s Blog">
+<meta property="og:url" content="http://yoursite.com/archives/2017/10/index.html">
 <meta property="og:site_name" content="Lcstar&#39;s Blog">
-<meta property="og:description" content="SpringBoot第一天">
-<meta property="og:updated_time" content="2017-09-26T14:45:46.598Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SpringBoot第一天">
-<meta name="twitter:description" content="SpringBoot第一天">
+<meta name="twitter:title" content="Lcstar&#39;s Blog">
   
     <link rel="alternative" href="/atom.xml" title="Lcstar&#39;s Blog" type="application/atom+xml">
   
@@ -131,149 +127,49 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-SpringBoot第一天" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      SpringBoot第一天
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2017/10/11/SpingBoot和Mybatis整合/" class="archive-article-date">
+  	<time datetime="2017-10-11T14:14:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-11</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2017/10/11/SpingBoot和Mybatis整合/">SpingBoot和Mybatis简单整合</a>
     </h1>
   
 
-        
-        <a href="/2017/09/26/SpringBoot第一天/" class="archive-article-date">
-  	<time datetime="2017-09-26T14:42:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="SpringBoot第一天"><a href="#SpringBoot第一天" class="headerlink" title="SpringBoot第一天"></a>SpringBoot第一天</h3><a id="more"></a>
-<p>推荐使用application.yml文件<br>类似与配置Hexo的yml配置文件语法相同</p>
-<h4 id="ConfigurationProperties注解"><a href="#ConfigurationProperties注解" class="headerlink" title="@ConfigurationProperties注解"></a>@ConfigurationProperties注解</h4><p>@ConfigurationProperties(prefix = “prefix”)<br>获取前缀为prefix的数据<br>配合@Component注解 然后使用@Atuowrite注解来注入Controller中</p>
-<h4 id="读取其他的yml配置文件"><a href="#读取其他的yml配置文件" class="headerlink" title="读取其他的yml配置文件"></a>读取其他的yml配置文件</h4><p>在application.yml文件中使用<br>spring:profiles:active: name来指定使用什么文件<br>application.yml<br>application-dev.yml<br>applicatrion-product.yml<br>将name 改为dev就使用 application-dev中的配置<br>反之用product 则使用application-product中的配置</p>
-<h4 id="Controller的使用"><a href="#Controller的使用" class="headerlink" title="Controller的使用"></a>Controller的使用</h4><p>Controller的使用和SpringMVC的使用一样<br> @RestContoller = @Controller + @ResponseBody</p>
-<h4 id="RequestMapping使用方式"><a href="#RequestMapping使用方式" class="headerlink" title="@RequestMapping使用方式"></a>@RequestMapping使用方式</h4><p>映射多个url ：将value属性写成一个集合 如 value={“/hello”,”/hi”}</p>
-<h4 id="GetMapping"><a href="#GetMapping" class="headerlink" title="@GetMapping"></a>@GetMapping</h4><h6 id="GetMapping-RequestMapping-Method-RequestMethod-GET"><a href="#GetMapping-RequestMapping-Method-RequestMethod-GET" class="headerlink" title="@GetMapping = @RequestMapping(Method=RequestMethod.GET)"></a>@GetMapping = @RequestMapping(Method=RequestMethod.GET)</h6><h6 id="PostMapping-RequestMapping-Method-RequestMethod-POST"><a href="#PostMapping-RequestMapping-Method-RequestMethod-POST" class="headerlink" title="@PostMapping = @RequestMapping(Method=RequestMethod.POST)"></a>@PostMapping = @RequestMapping(Method=RequestMethod.POST)</h6>
-      
+        <div class="article-info info-on-right">
+          
+          
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/09/26/SpringBoot第一天/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2017/10/11/SpingBoot和Mybatis整合/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          SpingBoot和Mybatis简单整合
-        
-      </div>
-    </a>
   
   
-    <a href="/2017/09/24/TestHelloHexo/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">配置hexo中遇到的一些小问题</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -296,8 +192,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
